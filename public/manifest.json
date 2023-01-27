@@ -1,16 +1,16 @@
 {
   "manifestVersion": 1,
-  "id": "snippet_template",
-  "name": "Snippet Template",
-  "author": "remnote",
-  "repoUrl": "https://www.google.com",
+  "id": "rem-icon",
+  "name": "Rem Icon",
+  "author": "Min-Ki Park",
+  "repoUrl": "https://github.com/browneyedsoul/RemNote-RemIcon",
   "version": {
     "major": 0,
-    "minor": 0,
-    "patch": 1
+    "minor": 1,
+    "patch": 0
   },
   "theme": [],
-  "enableOnMobile": false,
+  "enableOnMobile": true,
   "description": "",
   "requestNative": false,
   "requiredScopes": [
