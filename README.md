@@ -1,7 +1,7 @@
 # Rem Icon
 
 ## Demo
-
+![Demo](https://raw.githubusercontent.com/browneyedsoul/RemNote-RemIcon/main/public/demo.png?token=GHSAT0AAAAAABTUKLUBH6CSNKUATNTPZXFKY6TOLSA)
 
 ## Usage
 - Make a top-level rem named `Custom Icon` or something else easy to discern
