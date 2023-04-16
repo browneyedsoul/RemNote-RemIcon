@@ -51,6 +51,16 @@
                 display: flex;
             }
         }
+        .indented-rem {
+            .RichTextViewer {
+                display: flex;
+            }
+            &.rn-question-rem {
+                display: flex;
+                gap: .25rem;
+            }
+        }
+        
     }
 // All Notes Section
     .document-table {
@@ -62,7 +72,7 @@
         }
     }
 // Card Browser
-    .ReactVirtualized__Table__rowColumn {
+    .ReactVirtualized__Table_spacedRepetition_rowColumn {
         @include icon;
     }
 // Queue
