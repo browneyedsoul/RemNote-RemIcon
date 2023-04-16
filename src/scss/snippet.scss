@@ -52,12 +52,28 @@
             }
         }
         .indented-rem {
-            .RichTextViewer {
-                display: flex;
-            }
+            // .RichTextViewer {
+            //     display: flex;
+            // }
             &.rn-question-rem {
                 display: flex;
                 gap: .25rem;
+                > .rn-queue-rem {
+                    > .RichTextViewer {
+                        display: inline-flex;
+                        .linear-editor-item.whitespace-pre-wrap {
+                            white-space: pre;
+                        }
+                    }
+                }
+            }
+            .w-full {
+                display: inline;
+            }
+            .rem-reference-container {
+                .RichTextViewer {
+                    white-space: pre;
+                }
             }
         }
         
