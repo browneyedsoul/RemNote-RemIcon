@@ -1,5 +1,11 @@
 # Rem Icon
 
+## Usage
+
+```css
+@import url('https://browneyedsoul.github.io/RemNote-RemIcon/src/snippet.css')
+```
+
 ## Demo
 ![Demo](https://raw.githubusercontent.com/browneyedsoul/RemNote-RemIcon/main/public/demo.png)
 ![Demo2](https://raw.githubusercontent.com/browneyedsoul/RemNote-RemIcon/main/public/demo2.webp)

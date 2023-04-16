@@ -44,6 +44,14 @@
     #DocumentTitle .EditorContainer span:nth-child(3) {
         display: unset;
     }
+    .spacedRepetition {
+        .rem-bullet__document {
+            display: flex;
+            > span.RichTextViewer {
+                display: flex;
+            }
+        }
+    }
 // All Notes Section
     .document-table {
         .ReactVirtualized__Grid__innerScrollContainer {
