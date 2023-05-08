@@ -60,7 +60,7 @@
                 gap: .25rem;
                 > .rn-queue-rem {
                     > .RichTextViewer {
-                        display: inline-flex;
+                        display: inline;
                         .linear-editor-item.whitespace-pre-wrap {
                             white-space: pre;
                         }
@@ -76,7 +76,17 @@
                 }
             }
         }
-        
+        .rn-queue__content {
+            > .spaced-repetition__prompt {
+                > .indented-rem {
+                    > .rn-queue-rem {
+                        > .RichTextViewer {
+                            display: inline;
+                        }
+                    }
+                }
+            }
+        }
     }
 // All Notes Section
     .document-table {
