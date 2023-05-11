@@ -110,9 +110,11 @@
     .Queue {
         // Title bar
             .queue__title {
-                .queue__title__middle {
-                    .RichTextViewer {
-                        @include icon();
+                .rn-queue__top-bar--center {
+                    .rn-button {
+                        .w-max {
+                            display: inline-flex;
+                        }
                     }
                 }
             }
