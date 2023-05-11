@@ -81,7 +81,12 @@
                 > .indented-rem {
                     > .rn-queue-rem {
                         > .RichTextViewer {
-                            display: inline;
+                            display: inline-flex;
+                            > .linear-editor-item {
+                                > .min-w-\[1px\] {
+                                    display: none;
+                                }
+                            }
                         }
                     }
                 }
