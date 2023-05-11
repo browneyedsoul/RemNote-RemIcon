@@ -81,7 +81,7 @@
                 > .indented-rem {
                     > .rn-queue-rem {
                         > .RichTextViewer {
-                            display: inline-flex;
+                            display: inline;
                             > .linear-editor-item {
                                 > .min-w-\[1px\] {
                                     display: none;
@@ -121,7 +121,7 @@
                 > .indented-rem {
                     > span {
                         .RichTextViewer {
-                            display: flex;
+                            display: inline;
                         }
                         @include icon(3px);
                     }
