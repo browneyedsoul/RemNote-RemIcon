@@ -51,6 +51,16 @@
                 display: flex;
             }
         }
+        .rn-queue__content {
+            overflow-x: auto;
+            &::-webkit-scrollbar-thumb {
+                background-color: #BBB;
+                border-radius: 4px;
+            }
+            &::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+        }
         .indented-rem {
             // .RichTextViewer {
             //     display: flex;
@@ -61,10 +71,14 @@
                 > .rn-queue-rem {
                     > .RichTextViewer {
                         display: inline;
+                        white-space: pre;
                         .linear-editor-item.whitespace-pre-wrap {
                             white-space: pre;
                         }
                     }
+                }
+                > .RichTextViewer {
+                    overflow-wrap: anywhere;
                 }
             }
             .w-full {
@@ -150,6 +164,13 @@
             .fill-in-the-blank {
                 display: inline-flex;
                 vertical-align: top;
+                span.RichTextViewer {
+                    .cloze {
+                        > span.cloze {
+                            overflow-wrap: anywhere;
+                        }
+                    }
+                }
             }
             .fill-in-the-blank--revealed {
                 .RichTextViewer {
