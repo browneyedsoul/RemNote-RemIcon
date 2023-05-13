@@ -72,6 +72,9 @@
                     > .RichTextViewer {
                         display: inline;
                         white-space: pre;
+                        &:has(span[class*="cloze-id"]) {
+                            white-space: pre-wrap;
+                        }
                         .linear-editor-item.whitespace-pre-wrap {
                             white-space: pre;
                         }
