@@ -3,7 +3,7 @@
         height: 1em;
         width: auto;
         margin-right: $margin-right;
-        > div {
+        > div:not(.selected-items-wrapper) {
             height: 1em !important;
             width: unset !important;
             max-width: 1em !important;
