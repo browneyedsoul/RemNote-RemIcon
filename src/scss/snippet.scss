@@ -420,3 +420,11 @@
             display: none;
         }
     }
+
+[data-rem-tags~="card-item"] {
+    .rem-text {
+        .EditorContainer > span {
+            display: inline-flex;
+        }
+    }
+}
